@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarte Correto de Lixo Eletrônico</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+            background: url('kkk.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #f8f9fa;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.9) !important;
+        }
+        .jumbotron {
+            background: rgba(0, 0, 0, 0.7);
+            color: #f8f9fa;
+            margin-bottom: 0;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+            animation: fadeInDown 2s;
+            color: #ffd700;
+        }
+        .jumbotron p {
+            font-size: 1.5rem;
+            animation: fadeInUp 2s;
+            color: #f8f9fa;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            animation: fadeIn 2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .section-title {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #ffd700;
+        }
+        .list-group-item {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #f8f9fa;
+            border: none;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .list-group-item:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .contact {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .contact a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            color: #f8f9fa;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .jumbotron h1 {
+                font-size: 2rem;
+            }
+            .jumbotron p {
+                font-size: 1.25rem;
+            }
+            .container {
+                padding: 15px;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+            .contact {
+                padding: 1.5rem;
+            }
+        }
+        @media (max-width: 576px) {
+            .jumbotron h1 {
+                font-size: 1.5rem;
+            }
+            .jumbotron p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.25rem;
+            }
+            .list-group-item {
+                font-size: 0.9rem;
+            }
+            .contact {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Lixo Eletrônico - SIS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#como-descartar">Como Descartar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#por-que-descartar">Por Que Descartar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Descarte Correto de Lixo Eletrônico</h1>
+            <p class="lead">Saiba como e por que descartar seus dispositivos eletrônicos de forma adequada.</p>
+        </div>
+    </div>
+
+    <!-- Como Descartar -->
+    <div class="container" id="como-descartar">
+        <h2 class="section-title">Como Descartar Lixo Eletrônico</h2>
+        <p>Para descartar corretamente seu lixo eletrônico, siga estas etapas:</p>
+        <ul class="list-group">
+            <li class="list-group-item">1. Verifique as opções locais de reciclagem: Procure centros de reciclagem especializados em e-lixo na sua cidade.</li>
+            <li class="list-group-item">2. Utilize pontos de coleta: Encontre pontos de coleta em supermercados, escolas ou prefeituras que aceitem lixo eletrônico.</li>
+            <li class="list-group-item">3. Participe de campanhas de coleta: Participe de campanhas de coleta de e-lixo promovidas por ONGs ou empresas de tecnologia.</li>
+            <li class="list-group-item">4. Doe ou venda dispositivos usáveis: Doe ou venda dispositivos que ainda funcionam para organizações de caridade ou lojas de produtos usados.</li>
+        </ul>
+    </div>
+
+    <!-- Por Que Descartar -->
+    <div class="container" id="por-que-descartar">
+        <h2 class="section-title">Por Que Descartar Lixo Eletrônico</h2>
+        <p>Descartar corretamente o lixo eletrônico é crucial por várias razões:</p>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Proteção Ambiental:</strong> Evita a contaminação do solo e da água por substâncias tóxicas.</li>
+            <li class="list-group-item"><strong>Recuperação de Recursos:</strong> Metais preciosos e outros materiais podem ser recuperados e reutilizados.</li>
+            <li class="list-group-item"><strong>Economia de Energia:</strong> Reciclar eletrônicos consome menos energia do que a produção de novos dispositivos a partir de matérias-primas.</li>
+        </ul>
+    </div>
+
+    <!-- Contato -->
+    <div class="container contact" id="contato">
+        <h2 class="section-title">Quer saber mais?</h2>
+        <p>Para mais informações sobre como descartar corretamente seu lixo eletrônico, entre em contato conosco:</p>
+        <p><strong>E-mail:</strong> <a href="mailto:info@reciclagemexemplo.com">info@reciclagemexemplo.com</a></p>
+        <p><strong>Telefone:</strong> (61) 9 8533-0258</p>
+        <p><strong>Website:</strong> <a href="http://www.reciclagemexemplo.com" target="_blank">www.reciclagemexemplo.com</a></p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
